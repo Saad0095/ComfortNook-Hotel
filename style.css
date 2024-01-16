@@ -1,0 +1,99 @@
+h1 {
+    font-family: Georgia, Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(34, 34, 34);
+    text-decoration-thickness: 3px;
+    
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.navbar .nav-item .nav-link  {
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .nav-item .nav-link:hover  {
+    color: white;
+}
+
+/* Navbar end */
+
+
+/* Hreo Section */
+
+.carousel{
+    margin-bottom: 20px;
+}
+
+.carousel img {
+    /* width: 1583px;
+    height: 780px; */
+    width: 100vw;
+    height: 92vh;
+}
+
+.carousel .carousel-caption {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-bottom: 250px; */
+    /* margin-bottom: 30vh; */
+
+    position: absolute;
+    bottom: 34vh;
+    font-size: 30px;
+    color: #e4ecea;
+    font-weight: 600;
+    text-shadow: 3px 2px 1px black;
+}
+
+/* Hreo Section end */
+
+/* About */
+
+#about li {
+    font-size: 18px;
+
+}
+
+/* About end */
+
+
+/* FAQs */
+
+.accordion-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* FAQs end */
+
+
+/* Contact Us */
+
+#contact-us {
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* border: 1.6px solid gray; */
+}
+
+/* Contact Us End*/
