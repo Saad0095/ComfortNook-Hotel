@@ -45,10 +45,15 @@
 
     position: absolute;
     bottom: 34vh;
+    bottom: 34%;
+    bottom: 36%;
     font-size: 30px;
     color: #e4ecea;
     font-weight: 600;
     text-shadow: 3px 2px 1px black;
+    width: 46%;
+    margin: auto;
+
 }
 
 /* Hreo Section end */
