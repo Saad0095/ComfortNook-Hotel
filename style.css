@@ -24,7 +24,7 @@
 /* Navbar end */
 
 
-/* Hreo Section */
+/* Hero Section */
 
 .carousel {
     margin-bottom: 20px;
@@ -45,7 +45,8 @@
 
     position: absolute;
     bottom: 36%;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 35px;
     color: #e4ecea;
     font-weight: 600;
     text-shadow: 3px 2px 1px black;
@@ -53,6 +54,7 @@
     margin: auto;
 
 }
+
 
 /* Hreo Section end */
 
@@ -113,9 +115,30 @@ h1 {
     text-decoration: underline;
     text-decoration-color: rgb(34, 34, 34);
     text-decoration-thickness: 3px;
-
+    
 }
 
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+@media only screen and (max-width: 777px) {
+
+    .carousel img {
+        height: 92vh;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .carousel .carousel-caption {
+        /* bottom: 36%; */
+        bottom: 16%;
+        font-size: 25px;
+        width: 70%;
+
+    }
 }
